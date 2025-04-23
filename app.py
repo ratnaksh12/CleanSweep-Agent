@@ -7,7 +7,7 @@ from helpers.ai_overview import get_dataset_overview
 from helpers.ai_action_plan import generate_action_plan
 
 # ----- SET PAGE CONFIG -----
-st.set_page_config(page_title="DataAlchemy - AI Data Cleaning Agent", layout="wide")
+st.set_page_config(page_title="CleanSweep Agent - AI Data Cleaning Agent", layout="wide")
 
 # ----- LOAD LOCAL CSS -----
 def load_local_css(file_name):
