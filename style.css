@@ -1,0 +1,108 @@
+/* General Reset */
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Background */
+body, .stApp {
+    background: linear-gradient(to bottom right, #0f0f1a, #1A1F2C);
+    color: #e0e0e0;
+}
+
+/* Header Title */
+h1, h2, h3, .stTitle {
+    color: #8B5CF6;
+    font-weight: 600;
+}
+
+/* Captions & Minor Text */
+.stMarkdown, .stCaption {
+    color: #cbd5e1;
+}
+
+/* Uploader Box */
+.stFileUploader > div {
+    border: 2px dashed #8B5CF6;
+    background-color: #1A1F2C;
+    padding: 2rem;
+    border-radius: 15px;
+    color: #e0e0e0;
+}
+
+.stFileUploader label {
+    font-weight: 500;
+    color: #ffffff;
+}
+
+button[kind="primary"] {
+    background-color: #0EA5E9;
+    border-radius: 8px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+/* Tabs */
+.css-1v0mbdj, .stRadio > div {
+    background-color: #1A1F2C !important;
+    border-radius: 8px;
+    color: #e0e0e0 !important;
+}
+
+.stRadio > div > label {
+    background: none;
+    color: #cbd5e1 !important;
+    border: 1px solid #8B5CF6;
+    border-radius: 8px;
+    margin-right: 8px;
+    padding: 0.4rem 1rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.stRadio > div > label[data-selected="true"] {
+    background-color: #8B5CF6;
+    color: #ffffff !important;
+}
+
+/* Metrics */
+.element-container .stMetric {
+    background-color: #0f172a;
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid #334155;
+    color: #e0e0e0;
+}
+
+/* Tables */
+.css-1r6slb0 {
+    background-color: #1E293B;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Download Button */
+.stDownloadButton button {
+    background-color: #0EA5E9;
+    border: none;
+    padding: 0.5rem 1.2rem;
+    border-radius: 10px;
+    font-weight: 600;
+    color: #fff;
+    transition: 0.2s ease;
+}
+
+.stDownloadButton button:hover {
+    background-color: #0891b2;
+}
+
+/* Success and Warning Texts */
+.success {
+    color: #0EA5E9;
+    font-weight: bold;
+}
+
+.warning {
+    color: #F97316;
+    font-weight: bold;
+}
