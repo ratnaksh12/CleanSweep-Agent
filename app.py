@@ -17,7 +17,7 @@ def load_local_css(file_name):
 load_local_css("style.css")
 
 # ----- HEADER -----
-st.title("🧼 DataAlchemy")
+st.title("🧼 CleanSweep Agent")
 st.caption("Your AI-powered data cleaning assistant. ✨")
 
 # ----- FILE UPLOAD -----
